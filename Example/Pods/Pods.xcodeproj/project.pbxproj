@@ -15,6 +15,7 @@
 		5A0440F59DBCB344CD0E3222456D3905 /* TophLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 105DC71C32EF48508EB329D984F0C403 /* TophLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6341AD9C74F41642FB2750DD2884A1B /* Pods-TophLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8F7A4904A670F13D022899379A563B /* Pods-TophLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B41CBF501F7341CB009DB533 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41CBF4F1F7341CB009DB533 /* Person.swift */; };
+		B41CBF711F734918009DB533 /* TophLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41CBF701F734918009DB533 /* TophLib.swift */; };
 		BDB81863CDC028BBF28A7654CC23D6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F8A9D4D3C447DA909EB71BB8F1DE6E21 /* Pods-TophLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E77B0216B50E2A4D94B1FE31432411 /* Pods-TophLib_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		B1A649BE11934630F16DCBED5CD322AB /* Pods-TophLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TophLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B28FE4CE40E5D7AA60CDC942B9B685C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B41CBF4F1F7341CB009DB533 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B41CBF701F734918009DB533 /* TophLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TophLib.swift; sourceTree = "<group>"; };
 		C8C5F310F5923CF3BFE67D696D558FED /* TophLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TophLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC6397DEBB92216C6E189705D346D80 /* Pods-TophLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TophLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		EBC314C0D816D43B40666E330AFE61AF /* Pods-TophLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TophLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				B41CBF4F1F7341CB009DB533 /* Person.swift */,
+				B41CBF701F734918009DB533 /* TophLib.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41CBF501F7341CB009DB533 /* Person.swift in Sources */,
+				B41CBF711F734918009DB533 /* TophLib.swift in Sources */,
 				F8A9D4D3C447DA909EB71BB8F1DE6E21 /* Pods-TophLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +429,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TophLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TophLib_Example/Pods-TophLib_Example.modulemap";
@@ -631,7 +635,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TophLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TophLib_Example/Pods-TophLib_Example.modulemap";
