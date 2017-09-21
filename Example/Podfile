@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TophLib_Example' do
+  pod 'TophLib', :path => '../'
+
+  target 'TophLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
