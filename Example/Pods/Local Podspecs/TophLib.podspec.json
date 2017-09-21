@@ -1,0 +1,22 @@
+{
+  "name": "TophLib",
+  "version": "0.1.0",
+  "summary": "A short description of TophLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Christopher Holland/TophLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Christopher Holland": "chris@tophware.com"
+  },
+  "source": {
+    "git": "https://github.com/Christopher Holland/TophLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TophLib/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module TophLib {
+  umbrella header "TophLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

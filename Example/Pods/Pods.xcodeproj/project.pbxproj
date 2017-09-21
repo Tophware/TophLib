@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE4FE238F54545D854B52663B624C15 /* TophLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8C9F0147868AE52AC4333532C7F2B /* TophLib-dummy.m */; };
+		0AF7E154BF5A021E889090B8AE89BCE6 /* Pods-TophLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6397DEBB92216C6E189705D346D80 /* Pods-TophLib_Tests-dummy.m */; };
+		166F93D4373CCDB7C6A8C1FB3D0C28EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2FA4C714E15A953BB66AA94E3098CD8C /* Pods-TophLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D4BA52600710BA6D133F01C171F56E /* Pods-TophLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350CF0A8F31B44D60A77710445487FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5A0440F59DBCB344CD0E3222456D3905 /* TophLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 105DC71C32EF48508EB329D984F0C403 /* TophLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6341AD9C74F41642FB2750DD2884A1B /* Pods-TophLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8F7A4904A670F13D022899379A563B /* Pods-TophLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41CBF501F7341CB009DB533 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41CBF4F1F7341CB009DB533 /* Person.swift */; };
+		BDB81863CDC028BBF28A7654CC23D6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F8A9D4D3C447DA909EB71BB8F1DE6E21 /* Pods-TophLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E77B0216B50E2A4D94B1FE31432411 /* Pods-TophLib_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C0E2299763F15674104F7C25BE79F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F147C8C1C58F8739DEF32285F60F19;
+			remoteInfo = TophLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB8C9F0147868AE52AC4333532C7F2B /* TophLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TophLib-dummy.m"; sourceTree = "<group>"; };
+		0DF7BE69DDA2D15AB4876324C7F593D4 /* Pods-TophLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TophLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		105DC71C32EF48508EB329D984F0C403 /* TophLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TophLib-umbrella.h"; sourceTree = "<group>"; };
+		15FC7626F416FC3850D416E0F79EE4BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194536F29FAD52E196A44AEB6B7F4D70 /* Pods-TophLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TophLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21BC622A9C33FAF4B9E0E37C4717A10E /* Pods-TophLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TophLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		293DD3FA448A3A79AD21295E6B436720 /* Pods-TophLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TophLib_Example-resources.sh"; sourceTree = "<group>"; };
+		2B75DAA7DD514A602FB5D2522B5B1A6D /* Pods-TophLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TophLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		30EA0438EDCF260A4CDE33F3D5DC3566 /* Pods-TophLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TophLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		44E77B0216B50E2A4D94B1FE31432411 /* Pods-TophLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TophLib_Example-dummy.m"; sourceTree = "<group>"; };
+		474CFD3B86025F08CE3EDEC07E5F8B33 /* Pods_TophLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TophLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E05F322C087DC0160A816ADDF054CC7 /* Pods_TophLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TophLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD1CBC5CD6DA453B4CE50B28ACAC5CE /* Pods-TophLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TophLib_Example.modulemap"; sourceTree = "<group>"; };
+		6408E954090531E1C2150E2BCDDAA9AD /* TophLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TophLib.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7199A3EC9F4AC5E37FAAC8FF22DD3F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742A2BD8375C08C66EA4FFBAAAB3C33D /* TophLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TophLib-prefix.pch"; sourceTree = "<group>"; };
+		798CF662B02B820E45CFE33F487AB7E6 /* Pods-TophLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TophLib_Tests.modulemap"; sourceTree = "<group>"; };
+		79A806B5642E3C831BD19961F47AF8E7 /* Pods-TophLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TophLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B34074CA260E3F3B5ED02F950C4BCBF /* Pods-TophLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TophLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8FF23CF66BE163E10B68A1757F5336A0 /* Pods-TophLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TophLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A99521B2A348F6E8DA4E52CDB8632C95 /* TophLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TophLib.xcconfig; sourceTree = "<group>"; };
+		B1A649BE11934630F16DCBED5CD322AB /* Pods-TophLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TophLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B28FE4CE40E5D7AA60CDC942B9B685C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41CBF4F1F7341CB009DB533 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C8C5F310F5923CF3BFE67D696D558FED /* TophLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TophLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC6397DEBB92216C6E189705D346D80 /* Pods-TophLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TophLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBC314C0D816D43B40666E330AFE61AF /* Pods-TophLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TophLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1D4BA52600710BA6D133F01C171F56E /* Pods-TophLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TophLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F6ED98A65D3B03594077B6A96FFE14B7 /* Pods-TophLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TophLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC8F7A4904A670F13D022899379A563B /* Pods-TophLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TophLib_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301F5D05AFEC34F9D122A00B85AB9BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB81863CDC028BBF28A7654CC23D6BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9DB10E9FE0A38D0D7052B48C66570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350CF0A8F31B44D60A77710445487FB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3733283EEAB2119F3C8C1266714617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F93D4373CCDB7C6A8C1FB3D0C28EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E175B026423AFE7D639813A44B600F /* Pods-TophLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7199A3EC9F4AC5E37FAAC8FF22DD3F31 /* Info.plist */,
+				798CF662B02B820E45CFE33F487AB7E6 /* Pods-TophLib_Tests.modulemap */,
+				194536F29FAD52E196A44AEB6B7F4D70 /* Pods-TophLib_Tests-acknowledgements.markdown */,
+				F6ED98A65D3B03594077B6A96FFE14B7 /* Pods-TophLib_Tests-acknowledgements.plist */,
+				CCC6397DEBB92216C6E189705D346D80 /* Pods-TophLib_Tests-dummy.m */,
+				7B34074CA260E3F3B5ED02F950C4BCBF /* Pods-TophLib_Tests-frameworks.sh */,
+				8FF23CF66BE163E10B68A1757F5336A0 /* Pods-TophLib_Tests-resources.sh */,
+				F1D4BA52600710BA6D133F01C171F56E /* Pods-TophLib_Tests-umbrella.h */,
+				21BC622A9C33FAF4B9E0E37C4717A10E /* Pods-TophLib_Tests.debug.xcconfig */,
+				EBC314C0D816D43B40666E330AFE61AF /* Pods-TophLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-TophLib_Tests";
+			path = "Target Support Files/Pods-TophLib_Tests";
+			sourceTree = "<group>";
+		};
+		7921C7076522DBEDEBA01162BC9CBBD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B28FE4CE40E5D7AA60CDC942B9B685C4 /* Info.plist */,
+				6408E954090531E1C2150E2BCDDAA9AD /* TophLib.modulemap */,
+				A99521B2A348F6E8DA4E52CDB8632C95 /* TophLib.xcconfig */,
+				0BB8C9F0147868AE52AC4333532C7F2B /* TophLib-dummy.m */,
+				742A2BD8375C08C66EA4FFBAAAB3C33D /* TophLib-prefix.pch */,
+				105DC71C32EF48508EB329D984F0C403 /* TophLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TophLib";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				93EA1290178D00DD49EAE945878A3AE7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8EF8310F9AEBD254C321C42EAB080044 /* Products */,
+				CE56EFD6B0D51088198B80862513B1C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		855D1E104BC0CB25856E60285DB20E7C /* Pods-TophLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				15FC7626F416FC3850D416E0F79EE4BA /* Info.plist */,
+				5FD1CBC5CD6DA453B4CE50B28ACAC5CE /* Pods-TophLib_Example.modulemap */,
+				79A806B5642E3C831BD19961F47AF8E7 /* Pods-TophLib_Example-acknowledgements.markdown */,
+				2B75DAA7DD514A602FB5D2522B5B1A6D /* Pods-TophLib_Example-acknowledgements.plist */,
+				44E77B0216B50E2A4D94B1FE31432411 /* Pods-TophLib_Example-dummy.m */,
+				0DF7BE69DDA2D15AB4876324C7F593D4 /* Pods-TophLib_Example-frameworks.sh */,
+				293DD3FA448A3A79AD21295E6B436720 /* Pods-TophLib_Example-resources.sh */,
+				FC8F7A4904A670F13D022899379A563B /* Pods-TophLib_Example-umbrella.h */,
+				30EA0438EDCF260A4CDE33F3D5DC3566 /* Pods-TophLib_Example.debug.xcconfig */,
+				B1A649BE11934630F16DCBED5CD322AB /* Pods-TophLib_Example.release.xcconfig */,
+			);
+			name = "Pods-TophLib_Example";
+			path = "Target Support Files/Pods-TophLib_Example";
+			sourceTree = "<group>";
+		};
+		8EF8310F9AEBD254C321C42EAB080044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E05F322C087DC0160A816ADDF054CC7 /* Pods_TophLib_Example.framework */,
+				474CFD3B86025F08CE3EDEC07E5F8B33 /* Pods_TophLib_Tests.framework */,
+				C8C5F310F5923CF3BFE67D696D558FED /* TophLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93EA1290178D00DD49EAE945878A3AE7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A92732261EBB443B1D5CCD13BBB85641 /* TophLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A92732261EBB443B1D5CCD13BBB85641 /* TophLib */ = {
+			isa = PBXGroup;
+			children = (
+				B41CBF511F734365009DB533 /* Classes */,
+				7921C7076522DBEDEBA01162BC9CBBD8 /* Support Files */,
+			);
+			name = TophLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B41CBF511F734365009DB533 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B41CBF4F1F7341CB009DB533 /* Person.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE56EFD6B0D51088198B80862513B1C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				855D1E104BC0CB25856E60285DB20E7C /* Pods-TophLib_Example */,
+				02E175B026423AFE7D639813A44B600F /* Pods-TophLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A92883469E0B8A945DDE98C5F6F47A0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0440F59DBCB344CD0E3222456D3905 /* TophLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D2DEE72CB478E1660470DE8C5ECB81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6341AD9C74F41642FB2750DD2884A1B /* Pods-TophLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3D6F696430553AC2117321F8BAC21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA4C714E15A953BB66AA94E3098CD8C /* Pods-TophLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38CB476CDBA0CBAFADA6054C72D0B1F6 /* Pods-TophLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492D593C0A8CA2E954CCF29A7C559D4E /* Build configuration list for PBXNativeTarget "Pods-TophLib_Example" */;
+			buildPhases = (
+				1AA3546FCCC4362022826F0A22988BF3 /* Sources */,
+				301F5D05AFEC34F9D122A00B85AB9BDB /* Frameworks */,
+				B2D2DEE72CB478E1660470DE8C5ECB81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E3715D8727F1EE6EEBDD3C972FF99D /* PBXTargetDependency */,
+			);
+			name = "Pods-TophLib_Example";
+			productName = "Pods-TophLib_Example";
+			productReference = 4E05F322C087DC0160A816ADDF054CC7 /* Pods_TophLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46F147C8C1C58F8739DEF32285F60F19 /* TophLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1261B51E673D0803568A14EEE1709B /* Build configuration list for PBXNativeTarget "TophLib" */;
+			buildPhases = (
+				CB8AE6B1DEB64B8EC2CD30ED038F6ACB /* Sources */,
+				BEF9DB10E9FE0A38D0D7052B48C66570 /* Frameworks */,
+				A92883469E0B8A945DDE98C5F6F47A0E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TophLib;
+			productName = TophLib;
+			productReference = C8C5F310F5923CF3BFE67D696D558FED /* TophLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89E354848D2D0A2F7EDEFE51341DFC16 /* Pods-TophLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC75C930B6DC7BC11E55FEBCFA53025 /* Build configuration list for PBXNativeTarget "Pods-TophLib_Tests" */;
+			buildPhases = (
+				07B94BE7E6E16FF675C5D1DCDD5EC069 /* Sources */,
+				EE3733283EEAB2119F3C8C1266714617 /* Frameworks */,
+				D6E3D6F696430553AC2117321F8BAC21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TophLib_Tests";
+			productName = "Pods-TophLib_Tests";
+			productReference = 474CFD3B86025F08CE3EDEC07E5F8B33 /* Pods_TophLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					38CB476CDBA0CBAFADA6054C72D0B1F6 = {
+						DevelopmentTeam = 75B82FQE5B;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8EF8310F9AEBD254C321C42EAB080044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CB476CDBA0CBAFADA6054C72D0B1F6 /* Pods-TophLib_Example */,
+				89E354848D2D0A2F7EDEFE51341DFC16 /* Pods-TophLib_Tests */,
+				46F147C8C1C58F8739DEF32285F60F19 /* TophLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B94BE7E6E16FF675C5D1DCDD5EC069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF7E154BF5A021E889090B8AE89BCE6 /* Pods-TophLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA3546FCCC4362022826F0A22988BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41CBF501F7341CB009DB533 /* Person.swift in Sources */,
+				F8A9D4D3C447DA909EB71BB8F1DE6E21 /* Pods-TophLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8AE6B1DEB64B8EC2CD30ED038F6ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE4FE238F54545D854B52663B624C15 /* TophLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E3715D8727F1EE6EEBDD3C972FF99D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TophLib;
+			target = 46F147C8C1C58F8739DEF32285F60F19 /* TophLib */;
+			targetProxy = 2C0E2299763F15674104F7C25BE79F02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46B95626D2E22BA3BC226DA24683B805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99521B2A348F6E8DA4E52CDB8632C95 /* TophLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TophLib/TophLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TophLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TophLib/TophLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TophLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E1CAF3ADEB907F6211FF781644BEF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A649BE11934630F16DCBED5CD322AB /* Pods-TophLib_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 75B82FQE5B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TophLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TophLib_Example/Pods-TophLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TophLib_Example;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6679CE8BC85C394FFE976EBA127411B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99521B2A348F6E8DA4E52CDB8632C95 /* TophLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TophLib/TophLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TophLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TophLib/TophLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TophLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C071F953A530F0E774D8EF6F303E5DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC314C0D816D43B40666E330AFE61AF /* Pods-TophLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TophLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TophLib_Tests/Pods-TophLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TophLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2F74CCD619529DF48D1D527E15BF26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EA0438EDCF260A4CDE33F3D5DC3566 /* Pods-TophLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 75B82FQE5B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TophLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TophLib_Example/Pods-TophLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TophLib_Example;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8D5912B2CACEBD2B926A671E0D30956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BC622A9C33FAF4B9E0E37C4717A10E /* Pods-TophLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TophLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TophLib_Tests/Pods-TophLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TophLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1261B51E673D0803568A14EEE1709B /* Build configuration list for PBXNativeTarget "TophLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B95626D2E22BA3BC226DA24683B805 /* Debug */,
+				6679CE8BC85C394FFE976EBA127411B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492D593C0A8CA2E954CCF29A7C559D4E /* Build configuration list for PBXNativeTarget "Pods-TophLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F74CCD619529DF48D1D527E15BF26F /* Debug */,
+				5E1CAF3ADEB907F6211FF781644BEF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC75C930B6DC7BC11E55FEBCFA53025 /* Build configuration list for PBXNativeTarget "Pods-TophLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5912B2CACEBD2B926A671E0D30956 /* Debug */,
+				C071F953A530F0E774D8EF6F303E5DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

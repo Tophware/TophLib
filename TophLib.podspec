@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TophLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TophLib.'
+  s.summary          = 'This is a short description test'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This is a longer description test for Cocoapods'
 
-  s.homepage         = 'https://github.com/Christopher Holland/TophLib'
+  s.homepage         = 'https://github.com/Tophware/TophLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Christopher Holland' => 'chris@tophware.com' }
-  s.source           = { :git => 'https://github.com/Christopher Holland/TophLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/Tophware/TophLib.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/Tophware'
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

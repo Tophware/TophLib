@@ -1,0 +1,6 @@
+framework module Pods_TophLib_Tests {
+  umbrella header "Pods-TophLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
