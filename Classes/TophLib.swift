@@ -13,4 +13,8 @@ open class TophLib {
         print("Init TophLib")
     }
     
+    public func getSomeone() -> Person {
+        var me = Person(firstName: "Chris", lastName: "Holland")
+        return me
+    }
 }
