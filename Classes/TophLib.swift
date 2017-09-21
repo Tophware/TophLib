@@ -14,7 +14,7 @@ open class TophLib {
     }
     
     public func getSomeone() -> Person {
-        var me = Person(firstName: "Chris", lastName: "Holland")
+        let me = Person(firstName: "Chris", lastName: "Holland")
         return me
     }
 }
